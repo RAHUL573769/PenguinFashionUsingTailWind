@@ -7,18 +7,18 @@
     <title>Penguin Fashion</title>
   <script src="https://cdn.tailwindcss.com"></script> 
 <script>
-      module.exports = {
-    content: ["./src/**/*.{html,js}"],
-    theme: {
-      extend: {},
-    },
-    plugins: [],
-  }
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
 </script>
 </head>
 <body>
-  <header>
-    <section class="container mx-auto flex items-center justify-around">
+  <header class="bg-[#FFFBF0] pb-32 pt-12">
+    <section class="container mx-auto sm:flex items-center justify-around">
       <div class="space-y-4">
         <h1 class="text-5xl uppercase font bold">
           <span class="text-yellow-300">Be The Penguin</span>
@@ -32,8 +32,8 @@
                 </svg>Buy Now
               </button>
       </div>
-      <div class="container"> 
-<img src="penguin-fashion-main/images/model.png" alt="">
+      <div class="pt-8 sm:pt-0"> 
+<img class="w-1/2 sm:w-full"src="penguin-fashion-main/images/model.png" alt="">
       </div>
       
     </section>
